@@ -1,0 +1,3 @@
+module stringfunc
+
+go 1.21.4
