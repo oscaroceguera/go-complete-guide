@@ -1,8 +1,8 @@
-package main
+package second
 
 import "fmt"
 
-func example2() {
+func Example2() {
 	countries := [6]string{"mexico", "japan", "canada", "usa", "brazil", "chile"}
 
 	fmt.Printf("Countries: %v\n", countries) // output: Countries: [mexico japan canada usa brazil chile]

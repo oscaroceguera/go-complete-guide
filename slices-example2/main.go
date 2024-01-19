@@ -1,6 +1,12 @@
 package main
 
+import (
+	"slicestwo/first"
+	"slicestwo/second"
+)
+
+
 func main() {
-	// slices1()
-	example2()
+	first.Slices1()
+	second.Example2()
 }

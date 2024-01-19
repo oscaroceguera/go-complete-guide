@@ -1,8 +1,8 @@
-package main
+package first
 
 import "fmt"
 
-func slices1() {
+func Slices1() {
 	myslice1 := []int{}
 	// In Go, there are two functions that can be used to return the length and capacity of a slice:
 	fmt.Println(len(myslice1)) // returns the length of the slice (the number of elements in the slice)
