@@ -24,4 +24,11 @@ func example2() {
 	fmt.Println(countries[0:]) // output: [mexico japan canada usa brazil chile]
 	fmt.Println(countries[0:len(countries)]) // output: [mexico japan canada usa brazil chile]
 
+	a := []int{1,2}
+	b := []int{11,22}
+	fmt.Println(append(a, b...)) // [1 2 11 22]
+
+	c := []int{1,2}
+	fmt.Println(append(c, c...)) // [1 2 1 2]
+
 }

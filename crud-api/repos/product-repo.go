@@ -35,10 +35,8 @@ func (p *ProductRepo) GetOne(id uint) (entities.Product, error) {
 }
 
 func (p *ProductRepo) Update(id uint, amended entities.Product) (entities.Product, error) {
-	fmt.Println("amended ===> ", amended)
 	for i, it := range p.products {
 
-		fmt.Println("i ===> ", i)
 		if it.ID == id {
 			amended.ID = id
 			p.products = append(p.products[:i], p.products[i+1:]...)
